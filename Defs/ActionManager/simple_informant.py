@@ -257,8 +257,6 @@ def global_message():
     print(global_localization.line_of_dots)
 
 
-
-
 def check_php():
     try:
         try_to_run_command(["php", "-v"])
