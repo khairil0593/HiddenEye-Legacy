@@ -1,7 +1,7 @@
-from pyngrok import ngrok
+from pyngrok import conf as pyngrok_config
 from pyngrok import exception as pyngrok_exceptions
 from pyngrok import installer as pyngrok_installer
-from pyngrok import conf as pyngrok_config
+from pyngrok import ngrok
 
 
 class NgrokController:
